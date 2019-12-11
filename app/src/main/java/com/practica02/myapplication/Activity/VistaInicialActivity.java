@@ -54,7 +54,7 @@ public class VistaInicialActivity extends AppCompatActivity implements Navigatio
             case R.id.mdVerPerfil:
                 startActivity(new Intent(VistaInicialActivity.this, PerfilActivity.class));
             case R.id.mdAyuda:
-                Toast.makeText(this, "Ayuda Activity", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(VistaInicialActivity.this, AcercaDeActivity.class));
         }
         return true;
     }
