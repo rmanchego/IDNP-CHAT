@@ -26,6 +26,9 @@
             android:layout_height="wrap_content"
             android:text="RECEPTOR"
             android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:paddingLeft="20sp"
             />
 
     </LinearLayout>
