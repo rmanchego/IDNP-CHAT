@@ -196,7 +196,7 @@ public class RegistroActivity extends AppCompatActivity {
                 final String nombre = txtNombre.getText().toString();
                 final String placa = txtPlaca.getText().toString();
                 final String modelo = txtModelo.getText().toString();
-                final String color = txtModelo.getText().toString();
+                final String color = txtColor.getText().toString();
                 if(isValidEmail(correo) && validarContraseña() && validarNombre(nombre) && validarString(placa) && validarString(modelo) && validarString(color)){
                     String contraseña = txtContraseña.getText().toString();
                     mAuth.createUserWithEmailAndPassword(correo, contraseña)

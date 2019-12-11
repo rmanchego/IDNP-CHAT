@@ -117,12 +117,12 @@
                 android:hint="Modelo"
                 android:inputType="text" />
 
-            <EditText android:id="@+id/idRegistroColor"
-                android:layout_height="wrap_content"
+            <EditText
+                android:id="@+id/idRegistroColor"
                 android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:hint="Color"
-                android:inputType="text"
-                />
+                android:inputType="text" />
 
             <Button
                 android:id="@+id/idRegistroRegistrar"

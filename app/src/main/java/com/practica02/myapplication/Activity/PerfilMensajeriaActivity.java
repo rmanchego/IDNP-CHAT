@@ -78,6 +78,7 @@ public class PerfilMensajeriaActivity extends AppCompatActivity {
                 Intent intent = new Intent(PerfilMensajeriaActivity.this, MensajeriaActivity.class);
                 intent.putExtra("key_receptor", KEY_RECEPTOR);
                 startActivity(intent);
+                finish();
             }
         });
     }
