@@ -53,8 +53,10 @@ public class VistaInicialActivity extends AppCompatActivity implements Navigatio
         switch (id){
             case R.id.mdVerPerfil:
                 startActivity(new Intent(VistaInicialActivity.this, PerfilActivity.class));
+                return true;
             case R.id.mdAyuda:
                 startActivity(new Intent(VistaInicialActivity.this, AcercaDeActivity.class));
+                return true;
         }
         return true;
     }
