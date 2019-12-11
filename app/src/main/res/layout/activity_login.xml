@@ -13,7 +13,7 @@
     android:paddingBottom="16dp"
     android:background="@drawable/fondo"
     android:scaleType="centerCrop"
-    tools:context=".Activity.LoginActivity"
+    tools:context=".Controller.LoginActivity"
     >
     <!--tools:context=".MainActivity"-->
 

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.MensajeriaActivity"
+    tools:context=".Controller.MensajeriaActivity"
     android:padding="5sp"
     android:orientation="vertical">
 
