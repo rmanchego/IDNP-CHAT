@@ -80,7 +80,7 @@ public class VerUsuariosFragment extends Fragment {
             @Override
             protected void onBindViewHolder(UsuarioViewHolder holder, int position, Usuario model) {
                 Glide.with(VerUsuariosFragment.this).load(model.getFotoPerfilURL()).into(holder.getCivFotoPerfil());
-                holder.getTxtNombreUsuario().setText(model.getNombre());
+                holder.getTxtNombreUsuario().setText(model.getPlaca() + " / " + model.getNombre());
                 //Obtiene toda la data de la lista //  Key en getSpanpshot 2
                 final LUsuario lUsuario = new LUsuario(getSnapshots().getSnapshot(position).getKey(),model);
 
