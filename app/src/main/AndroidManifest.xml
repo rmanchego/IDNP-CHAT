@@ -30,6 +30,7 @@
         <activity android:name=".Activity.VistaInicialActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Activity.PerfilMensajeriaActivity"></activity>
+        <activity android:name=".Activity.AcercaDeActivity"></activity>
 
     </application>
 
