@@ -26,6 +26,7 @@ import com.google.firebase.database.Query;
 import com.practica02.myapplication.Activity.LoginActivity;
 import com.practica02.myapplication.Activity.MensajeriaActivity;
 import com.practica02.myapplication.Activity.ModificarPerfilActivity;
+import com.practica02.myapplication.Activity.PerfilMensajeriaActivity;
 import com.practica02.myapplication.Entidades.Firebase.Usuario;
 import com.practica02.myapplication.Entidades.Logica.LUsuario;
 import com.practica02.myapplication.Holder.UsuarioViewHolder;
@@ -86,7 +87,7 @@ public class VerUsuariosFragment extends Fragment {
                 holder.getLayaoutPrincipal().setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(getContext(), MensajeriaActivity.class);
+                        Intent intent = new Intent(getContext(), PerfilMensajeriaActivity.class);
                         intent.putExtra("key_receptor", lUsuario.getKey());
                         startActivity(intent);
                     }

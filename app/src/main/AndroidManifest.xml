@@ -29,6 +29,7 @@
         <activity android:name=".Activity.ModificarPerfilActivity"></activity>
         <activity android:name=".Activity.VistaInicialActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activity.PerfilMensajeriaActivity"></activity>
 
     </application>
 
