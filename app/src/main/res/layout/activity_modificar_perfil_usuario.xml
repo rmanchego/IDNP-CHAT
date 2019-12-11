@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fotoModificarPerfil"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click para cambiar tu foto de perfil"/>
+
+            <EditText
+                android:id="@+id/idModificarNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre" />
+
+            <EditText
+                android:id="@+id/idModificarCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:clickable="false"/>
+
+            <EditText
+                android:id="@+id/idModificarContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/idModificarContraseñaRepetida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Repetir contraseña"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/txtModificarFechaDeNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fecha de Nacimiento"
+                android:inputType="date"
+                android:clickable="true"
+                android:focusable="false"/>
+
+            <RadioGroup
+                android:id="@+id/rgModificarGenero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="false">
+                <RadioButton
+                    android:id="@+id/rdModificarHombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Hombre"
+                    android:layout_weight="1"
+                    android:checked="true"/>
+                <RadioButton
+                    android:id="@+id/rdModificarMujer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Mujer"
+                    android:layout_weight="1"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/idModificar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Guardar Cambios" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
